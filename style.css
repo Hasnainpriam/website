@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(gym2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:25px ;
+    text-transform: uppercase;
+}
+
+.right a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.right a:hover{
+color: #DC143C;
+transition :0.5s;
+border-bottom: 1px solid whitesmoke;
+}
+
+.left img{
+   width: 60px;
+   
+}
+
+.page{
+    position: relative;
+    text-align: center;
+    top:100px;
+    font-family:'Baloo Bhaina 2', cursive ;
+    color:white;
+    font-size: larger;
+}
+
+.maintext{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.maintext .col{
+    color: crimson;
+}
+
+.text{
+    color: crimson;
+}
+
+.btn a{
+    text-decoration: none;
+    color: lightcyan;
+    border: 1px solid crimson;
+    border-radius: 30px;
+}
+.btn a{
+    font-size: small;
+
+    padding: 5px 15px;
+
+}
+
+.btn a:hover{
+    border: 1px solid ash;
+    background-color: lightgray;
+    color: crimson;
+    transition: .5s;
+}
+
+.maintext h1{
+    padding: 5px;
+}
